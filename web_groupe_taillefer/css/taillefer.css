@@ -1,0 +1,9 @@
+/*  Publications  */
+
+.publications p {
+  margin: 0;
+}
+
+.publications .title {
+  font-weight: bold;
+}
