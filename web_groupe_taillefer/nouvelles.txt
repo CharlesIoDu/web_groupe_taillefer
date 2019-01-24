@@ -1,0 +1,95 @@
+<div class="site-section bg-white">
+  <div class="container">
+    <div class="row mb-5 justify-content-center">
+      <div class="col-12 text-center">
+        <h2 class="font-weight-light text-black display-4" id="actualites">Actualités</h2>
+      </div>
+    </div>
+    <div class="block-13 nonloop-block-13 owl-carousel" data-aos="fade">
+
+       <!--  new home news-->
+      <div class="p-4">
+        <img src="images/home_news/strange_metal_2.gif"  style="max-width: 300px; max-height: 450px" alt="">
+      </div>
+      <div class="p-4">
+        <h3>Nouvel article !</h3>
+        <h6><span class="icon-calendar"> Novembre 2018</h6>
+
+        <p>De nouvelles expériences suggèrent que les matériaux supraconducteurs exotiques ont en commun une phase de «métal étrange» caractérisée par une vitesse limite imposée par les constantes fondamentales de la mécanique quantique.</p>
+
+
+        <a href="./Publications/2018/nature_legros.pdf">Universal T-linear resistivity and Planckian dissipation in overdoped cuprates</a>
+        <br>A. Legros <em>et al.</em></br> <span> Nature Physics (2018)</span>
+
+        <p> </p>
+        <a href="https://www.quantamagazine.org/universal-quantum-phenomenon-found-in-superconductors-20181119/"> Universal Quantum Phenomenon Found in Strange Metals </a>
+
+         <br>Nathalie Wolchver </br> <span> Quanta Magazine </span>
+      </div>
+
+      <div class="p-2">
+        <img src="images/home_news/Louis-Taillefer-portrait.jpg" style="max-width: 300px; max-height: 600px" alt="">
+      </div>
+
+   <!-- END new home news-->
+      <div class="p-8">
+        <h3>Prix Simon Memorial</h3>
+        <h6><span class="icon-calendar"> Mars 2017</h6>
+        <p>Louis Taillefer est le premier canadien à recevoir le prix commémoratif Simon (Simon Memorial Prize) depuis sa création en 1957. Tous les trois ans, l’Institute of Physics (IOP) décerne ce prix international afin de reconnaître les travaux distingués en physique des basses températures expérimentale ou théorique.</p>
+
+        <a href="https://www.icra.ca/assets/louis-taillefer-physicien-quantique-a-licra-est-le-premier-canadien-a-recevoir-le-prix-simon/">Louis Taillefer, physicien quantique à l’ICRA, est le premier Canadien à recevoir le prix Simon</a>
+        <br>ICRA</em></br> <span> Institut canadien de recherches avancées</span>
+
+        <p>
+        <a href="https://www.usherbrooke.ca/sciences/accueil/nouvelles/nouvelles-details/article/34287/">Louis Taillefer : premier Canadien à recevoir le prix Simon Memorial</a>
+        <br>Faculté des sciences</em></br> <span> Université de Sherbrooke</span>
+        </p>
+        <p>
+        <a href="https://www.timeshighereducation.com/people/interview-louis-taillefer-université-de-sherbrooke"> Interview with Louis Taillefer </a>
+        <br>THE</em></br> <span> Times Higher Education</span>
+        </p>
+        <p>
+        <a href="http://www.iop.org/activity/groups/subject/lt/prize/page_40697.html"> Simon memorial prize </a>
+        <br>IOP</em></br> <span> Institute of Physics</span>
+        </p>
+      </div>
+   <!-- END new home news-->
+
+      <!-- new home news-->
+      <div class="p-4">
+        <img src="images/home_news/Moore_fondation.png" alt="">
+      </div>
+
+      <div class="p-4">
+        <h3>Nouvelle subvention!</h3>
+        <h6><span class="icon-calendar"> Octobre 2016</h6>
+        <p>Une équipe de l'Institut quantique a fait tomber un pan majeur du mystère de la supraconductivité à haute température. Cette découverte du physicien Louis Taillefer et de ses collaborateurs a retenu l'attention de la Fondation Moore, prestigieuse organisation qui décide de sauter dans l'avanture et de financer la suite de leurs recherches!</p>
+
+
+  <a href="https://www.usherbrooke.ca/iq/actualites/nouvelles/pate-la-fondation-moore-appuie-un-projet-de-linstitut-quantique/">
+      Épatée, la Fondation Moore appuie un projet de l’Institut quantique </a>
+      <br><em>Fondation Gordon et Betty More</em><br> <span > Université de Sherbrooke</span></p>
+      </div>
+
+       <!-- END new home news-->
+
+<!--             <div class="p-4">
+        <img src="images/home_news/Moore_fondation.png" alt="">
+      </div>
+
+      <div class="p-4">
+        <h4>Nouvelle subvention!</h4>
+        <h6><span class="icon-calendar"> Octobre 2016</h6>
+        <p>Une équipe de l'Institut quantique a fait tomber un pan majeur du mystère de la supraconductivité à haute température. Cette découverte du physicien Louis Taillefer et de ses collaborateurs a retenu l'attention de la Fondation Moore, prestigieuse organisation qui décide de sauter dans l'avanture et de financer la suite de leurs recherches!</p>
+
+
+  <a href="https://www.usherbrooke.ca/iq/actualites/nouvelles/pate-la-fondation-moore-appuie-un-projet-de-linstitut-quantique/">
+      Épatée, la Fondation Moore appuie un projet de l’Institut quantique </a>
+      <br><em>Fondation Gordon et Betty More</em><br> <span > Université de Sherbrooke</span></p>
+      </div>
+-->
+    </div>
+
+
+  </div>
+</div>
