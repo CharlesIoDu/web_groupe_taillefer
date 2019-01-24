@@ -20,5 +20,61 @@
 }
 
 .img-actualites {
+  display: block;
   width: 100%;
+  height: auto;
+}
+
+.equipe img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.img-equipe {
+  position: relative;
+  width: 100%;
+  /* max-width: 200px; */
+  margin-bottom: 10px;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.img-overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.img-overlay span {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+}
+
+.img-overlay span:hover {
+  color: #F23A2E;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.img-equipe:hover .img-overlay {
+  opacity: 1;
+}
+
+.equipe .nom {
+  font-weight: bold;
+}
+
+.equipe-box {
+  margin: 25px;
+  text-align: center;
+  font-size: 18px;
 }
