@@ -7,3 +7,18 @@
 .publications .title {
   font-weight: bold;
 }
+
+.carousel-indicators li {
+    background-color: #F23A2E88;
+}
+.carousel-indicators .active {
+  background-color: #F23A2E;
+}
+
+.carousel-indicators {
+  bottom:-50px;
+}
+
+.img-actualites {
+  width: 100%;
+}
