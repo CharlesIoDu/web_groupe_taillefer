@@ -34,9 +34,14 @@
 .img-equipe {
   position: relative;
   width: 100%;
-  /* max-width: 200px; */
   margin-bottom: 10px;
 }
+
+.img-equipe-old img {
+  position: relative;
+  /*border-radius: 50%;*/
+}
+
 
 /* The overlay effect - lays on top of the container and over the image */
 .img-overlay {
