@@ -17,6 +17,8 @@
 
 
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
 
     <link rel="stylesheet" href="css/aos.css">
 
@@ -52,17 +54,17 @@
 
                     <ul class="site-menu js-clone-nav d-none d-lg-block">
                       <li class="has-children">
-                        <a href="accueil.html">Accueil</a>
+                        <a href="index.html">Accueil</a>
                         <ul class="dropdown arrow-top">
-                          <li><a href="accueil.html#actualites">Actualités</a></li>
+                          <li><a href="index.html#actualites">Actualités</a></li>
                         </ul>
                       </li>
- 					            <li><a href="accueil.html#recherche">Recherche</a></li>
+ 					            <li><a href="index.html#recherche">Recherche</a></li>
                       <li><a href="equipe.html">Équipe</a></li>
                       <li><a href="publications_fr.html">Publications</a></li>
                       <li><a href="medias_fr.html">Medias</a></li>
                       <li><a href="opportunites.html">Opportunités</a></li>
-                      <li><a href="#contact_fr">Contact</a></li>
+                      <li><a href="index.html#contact">Contact</a></li>
                     </ul>
                   </div>
                 </nav>
@@ -72,6 +74,7 @@
         </div>
       </div>
 
+      <!-- DEBUT MEMBRE ACTUEL  -->
       <div class="site-section bg-white py-5 equipe">
         <div class="container">
           <div class="row mb-5 justify-content-center">
@@ -82,10 +85,17 @@
           <div class="row justify-content-center">
 
             <div class="col-md-3 col-sm-4 equipe-box">
+              <div id="nav-louis-taillefer" class="nav-equipe-overlay">
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav('nav-louis-taillefer')">&times;</a>
+                <!-- Overlay content -->
+                <div class="nav-equipe-overlay-content">
+                </div>
+              </div>
               <div class="img-equipe">
-                <img src="images/Groupe/louis_carre.jpg" alt="">
+                <img onclick="openNav('nav-louis-taillefer')" src="images/Groupe/louis_carre.jpg" alt="">
                 <div class="img-overlay">
-                  <a href="mailto:louis.tailler@usherbrooke.ca"><span class="icon-envelope"></span></a>
+                  <a href="mailto:louis.taillefer@usherbrooke.ca"><span class="icon-envelope"></span></a>
                   <a href="#"><span class="icon-trophy"></span></a>
                   <a href="#"><span class="icon-person"></span></a>
                 </div>
@@ -96,116 +106,336 @@
               </p>
             </div>
 
+
             <div class="col-md-3 col-sm-4 equipe-box">
               <div class="img-equipe">
-                <img src="images/Groupe/marie_eve_boulanger.jpeg" alt="">
+                <img src="images/Groupe/nicolas_doiron_carre.jpg" alt="">
                 <div class="img-overlay">
-                  <a href="mailto:marie-eve.boulanger2@usherbrooke.ca"><span class="icon-envelope"></span></a>
-                  <a href="https://www.linkedin.com/in/marie-eve-boulanger-a5215399"><span class="icon-linkedin-square"></span></a>
-                  <a href="https://twitter.com/MarieEve_Bou"><span class="icon-twitter-square"></span></a>
+                  <a href="mailto:nicolas.doiron-leyraud@usherbrooke.ca"><span class="icon-envelope"></span></a>
+                  <a href="https://www.linkedin.com/in/nicolas-doiron-leyraud-227140b/"><span class="icon-linkedin-square"></span></a>
+                  <a href="#"><span class="ai ai-google-scholar-square ai-1x"></span></a>
+                </div>
+              </div>
+              <span class="nom">Nicolas Doiron-Leyraud</span> <br>
+              Chercheur associé
+            </div>
+
+            <div class="col-md-3 col-sm-4 equipe-box">
+              <div class="img-equipe">
+                <img src="images/Groupe/Simon_Fortier.jpg" alt="">
+                <div class="img-overlay">
+                  <a href="mailto:simon.s.fortier@usherbrooke.ca"><span class="icon-envelope"></span></a>
+                </div>
+              </div>
+              <span class="nom">Simon Fortier</span> <br>
+              Technicien
+            </div>
+                        <!-- EQUIPE MARIE-EVE -->
+            <div class="col-md-3 col-sm-4 equipe-box">
+              <div id="nav-francis-laliberte" class="nav-equipe-overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav('nav-francis-laliberte')">&times;</a>
+                <div class="nav-equipe-overlay-content">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <h2>Francis Laliberté</h2>
+                        <h4>Post-Doctorant</h4>
+                      </div>
+                    </div>
+                    <div class="row nav-equipe-info">
+                      <div class="col">
+                        <h4>Parcours académique</h4>
+                        <ul>
+                          <li>
+                            <p>Ph.D. en physique, Université de Sherbrooke (2013)</p>
+                            <ul>
+                            <li><p><a href="https://savoirs.usherbrooke.ca/handle/11143/58">Thèse</a></p></li>
+                          </ul>
+                          </li>
+                          <li>
+                            <p>M.Sc. en physique, Université de Sherbrooke (2010)</p>
+                            <ul>
+                              <li><p><a href="https://savoirs.usherbrooke.ca/handle/11143/4880">Mémoire</a></p></li>
+                            </ul>
+                          </li>
+                          <li>
+                            <p>B.Sc. en physique, Université de Sherbrooke (2008)</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row nav-equipe-info">
+                      <div class="col">
+                       <h4>Intérêts de recherche</h4>
+                       <!-- À modifier -->
+                       <p>Propriétés de transport électrique, thermique et thermo-électrique dans les cuprates et autres matériaux quantiques.<br> Mesures sous champ magnétique intense (statique et pulsé). Propagation ultrasonore.</p>
+                      </div>
+                    </div>
+                    <div class="row nav-equipe-info">
+                      <div class="col">
+                        <h4>Intérêts divers</h4>
+                        <!-- À modifier -->
+                        <p>En plus d'être physicien, je suis un papa de deux enfants plein d'énergie et un sportif aguerri. J'aime courir, faire du vélo, patiner et me retrouver dans la nature.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="img-equipe">
+                <img onclick="openNav('nav-francis-laliberte')" src="images/Groupe/francis_carre.jpg" alt="">
+                <div class="img-overlay">
+                  <a href="mailto:francis.d.laliberte@usherbrooke.ca"><span class="icon-envelope"></span></a>
+                  <a href="https://www.linkedin.com/in/francis-laliberté-6675065/"><span class="icon-linkedin-square"></span></a>
+                  <a href="https://scholar.google.ca/citations?user=b6StSM4AAAAJ&hl=en&oi=ao"><span class="ai ai-google-scholar-square ai-1x"></span></a>
                 </div>
               </div>
               <p>
-                <span class="nom">Marie-Eve Boulanger</span> <br>
-                Étudiante au doctorat
+                <a onclick="openNav('nav-marie-eve-boulanger')" href="nav-marie-eve-boulanger">Francis Laliberté</a> <br>
+                Post-Doctorant
+              </p>
+            </div>
+          <!-- FIN EQUIPE FRANCIS -->
+
+
+
+            <div class="col-md-3 col-sm-4 equipe-box">
+              <div class="img-equipe">
+                <img src="images/Groupe/adrien_carre.jpg" alt="">
+                <div class="img-overlay">
+                  <a href="mailto:agourgout@gmail.com"><span class="icon-envelope"></span></a>
+                  <a href="https://www.linkedin.com/in/adrien-gourgout-7299a17a/"><span class="icon-linkedin-square"></span></a>
+                  <a href="https://scholar.google.com/citations?user=nP4DI_IAAAAJ&hl=en"><span class="ai ai-google-scholar-square ai-1x"></span></a>
+                </div>
+              </div>
+              <span class="nom">Adrien Gourgout</span> <br>
+              Post-doctorant
+            </div>
+
+            <div class="col-md-3 col-sm-4 equipe-box">
+              <div class="img-equipe">
+                <img src="images/Groupe/gael_carre.jpg" alt="">
+                <div class="img-overlay">
+                  <a href="mailto:Gael.Grissonnanche@usherbrooke.ca"><span class="icon-envelope"></span></a>
+                  <a href="https://www.linkedin.com/in/gael-grissonnanche-24872b6a/"><span class="icon-linkedin-square"></span></a>
+                  <a href="https://scholar.google.fr/citations?user=jC912LAAAAAJ&hl=fr"><span class="ai ai-google-scholar-square ai-1x"></span></a>
+                </div>
+              </div>
+              <p>
+                <span class="nom">Gaël Grissonnanche</span> <br>
+                Post-doctorant
               </p>
             </div>
 
             <div class="col-md-3 col-sm-4 equipe-box">
               <div class="img-equipe">
-                <img src="images/Groupe/simon_fortier_carre.jpeg" alt="">
+                <img src="images/Groupe/bastien.jpg" alt="">
                 <div class="img-overlay">
-                  <a href="mailto:simon.s.fortier@usherbrooke.ca"><span class="icon-envelope"></span></a>
+                  <a href="mailto:bastien.loret@usherbrooke.ca"><span class="icon-envelope"></span></a>
+                  <a href="https://www.linkedin.com/in/bastien-loret-7b3567134/"><span class="icon-linkedin-square"></span></a>
+                  <a href="https://scholar.google.fr/citations?user=My0M3XcAAAAJ&hl=fr&oi=ao"><span class="ai ai-google-scholar-square ai-1x"></span></a>
                 </div>
               </div>
-              <span class="nom">Simon Fortier</span> <br>
-              Technicien
+              <p>
+                <span class="nom">Bastien Loret</span> <br>
+                Post-doctorant
+              </p>
             </div>
 
             <div class="col-md-3 col-sm-4 equipe-box">
               <div class="img-equipe">
-                <img src="images/Groupe/simon_fortier_carre.jpeg" alt="">
+                <img src="images/Groupe/patrick_carre.jpg" alt="">
                 <div class="img-overlay">
-                  <a href="mailto:simon.s.fortier@usherbrooke.ca"><span class="icon-envelope"></span></a>
+                  <a href="mailto:patrick.bourgeois-hope@usherbrooke.ca"><span class="icon-envelope"></span></a>
+                  <a href="https://www.linkedin.com/in/patrick-bourgeois-hope/"><span class="icon-linkedin-square"></span></a>
+                  <a href="https://scholar.google.ca/citations?user=5IkxqhIAAAAJ&hl=en"><span class="ai ai-google-scholar-square ai-1x"></span></a>
                 </div>
               </div>
-              <span class="nom">Simon Fortier</span> <br>
-              Technicien
+              <p>
+                <span class="nom">Patrick Bourgeois-Hope</span> <br>
+                Étudiant au doctorat
+              </p>
             </div>
-
+            <!-- EQUIPE MARIE-EVE -->
             <div class="col-md-3 col-sm-4 equipe-box">
-              <div class="img-equipe">
-                <img src="images/Groupe/simon_fortier_carre.jpeg" alt="">
-                <div class="img-overlay">
-                  <a href="mailto:simon.s.fortier@usherbrooke.ca"><span class="icon-envelope"></span></a>
+              <div id="nav-marie-eve-boulanger" class="nav-equipe-overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav('nav-marie-eve-boulanger')">&times;</a>
+                <div class="nav-equipe-overlay-content">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <h2>Marie-Eve Boulanger</h2>
+                        <h4>Étudiante au doctorat</h4>
+                      </div>
+                    </div>
+                    <div class="row nav-equipe-info">
+                      <div class="col">
+                        <h4>Parcours académique</h4>
+                        <ul>
+                          <li>
+                            <p>Baccalauréat en physique, Université Laval (2016)</p>
+                          </li>
+                          <li>
+                            <p>Maîtrise en physique, Université de Sherbrooke (2018)</p>
+                            <ul>
+                              <li><p><a href="#">Mémoire</a></p></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row nav-equipe-info">
+                      <div class="col">
+                        <h4>Projet de recherche</h4>
+                        <p>Étude de la conductivitité thermique dans des matériaux qui ont des propriétés intéressantes a étudié par la conductivitité thermique.</p>
+                      </div>
+                    </div>
+                    <div class="row nav-equipe-info">
+                      <div class="col">
+                        <h4>Intérêts</h4>
+                        <p>Vélo, ski, nature, musique</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <span class="nom">Simon Fortier</span> <br>
-              Technicien
-            </div>
-
-            <div class="col-md-3 col-sm-4 equipe-box">
               <div class="img-equipe">
-                <img src="images/Groupe/simon_fortier_carre.jpeg" alt="">
+                <img onclick="openNav('nav-marie-eve-boulanger')" src="images/Groupe/marie_eve_boulanger.jpeg" alt="">
                 <div class="img-overlay">
-                  <a href="mailto:simon.s.fortier@usherbrooke.ca"><span class="icon-envelope"></span></a>
+                  <a href="mailto:marie-eve.boulanger2@usherbrooke.ca"><span class="icon-envelope"></span></a>
+                  <a href="https://www.linkedin.com/in/marie-eve-boulanger-a5215399"><span class="icon-linkedin-square"></span></a>
+                   <a href="https://scholar.google.fr/citations?user=weOkqoYAAAAJ&hl=fr&oi=ao"><span class="ai ai-google-scholar-square ai-1x"></span></a>
+                  <a  href="https://twitter.com/MarieEve_Bou"><span class="icon-twitter-square"></span></a>
                 </div>
               </div>
-              <span class="nom">Simon Fortier</span> <br>
-              Technicien
+              <p>
+                <a onclick="openNav('nav-marie-eve-boulanger')" href="nav-marie-eve-boulanger">Marie-Eve Boulanger</a> <br>
+                Étudiante au doctorat
+              </p>
+            </div>
+          <!-- FIN EQUIPE MARIE-EVE -->
+          <div class="col-md-3 col-sm-4 equipe-box">
+              <div class="img-equipe">
+                <img src="images/Groupe/clement_carre.jpg" alt="">
+                <div class="img-overlay">
+                  <a href="mailto:clement.girod@neel.cnrs.fra"><span class="icon-envelope"></span></a>
+                  <a href="https://www.linkedin.com/in/clément-girod-6a7a6499/"><span class="icon-linkedin-square"></span></a>
+                </div>
+              </div>
+              <p>
+                <span class="nom">Clément Girod</span> <br>
+                Étudiant au doctorat
+              </p>
             </div>
 
+             <div class="col-md-3 col-sm-4 equipe-box">
+              <div class="img-equipe">
+                <img src="images/Groupe/maude_carre.jpg" alt="">
+                <div class="img-overlay">
+                  <a href="mailto:maude.lizaire@usherbrooke.ca"><span class="icon-envelope"></span></a>
+                  <a href="https://www.linkedin.com/in/maude-lizaire-315a12141/"><span class="icon-linkedin-square"></span></a>
+                </div>
+              </div>
+              <p>
+                <span class="nom">Maude Lizaire</span> <br>
+                Étudiante à la maîtrise
+              </p>
+            </div>
+
+          <div class="col-md-3 col-sm-4 equipe-box">
+              <div class="img-equipe">
+                <img src="images/Groupe/amir_carre.jpg" alt="">
+                <div class="img-overlay">
+                  <a href="mailto:Seyed.Amirreza.Ataei@usherbrooke.ca"><span class="icon-envelope"></span></a>
+                  <a href="https://www.linkedin.com/in/amirrezaataei/"><span class="icon-linkedin-square"></span></a>
+                  <a href="https://scholar.google.fr/citations?user=4tgAdigAAAAJ&hl=fr&oi=ao"><span class="ai ai-google-scholar-square ai-1x"></span></a>
+                </div>
+              </div>
+              <p>
+                <span class="nom">Amirreza Atei</span> <br>
+                Étudiant à la maîtrise
+              </p>
+            </div>
+
+          <div class="col-md-3 col-sm-4 equipe-box">
+              <div class="img-equipe">
+                <img src="images/Groupe/etienne.jpg" alt="">
+                <div class="img-overlay">
+                  <a href="mailto:etienne.Lefrancois@usherbrooke.ca"><span class="icon-envelope"></span></a>
+                </div>
+              </div>
+              <p>
+                <span class="nom">Étienne Lefrançois</span> <br>
+                Étudiant à la maîtrise
+              </p>
+            </div>
           </div>
         </div>
       </div>
 
-      <!-- <div class="site-section bg-light py-5 equipe">
+      <!-- FIN MEMBRES ACTUELS -->
+
+      <!-- ANCIEN MEMBRE -->
+
+      <div class="site-section bg-light py-5 equipe">
         <div class="container">
           <div class="row mb-5 justify-content-center">
             <div class="col-12 text-center">
               <h2 class="font-weight-light text-black display-4">Anciens membres</h2>
             </div>
           </div>
+
           <div class="row justify-content-center">
-            <div class="col-lg-3">
-              <div class="col">
-                <div class="img-equipe">
-                  <img src="images/Groupe/louis_carre.jpg" alt="">
-                  <div class="img-overlay">
-                  </div>
-                </div>
-                <span class="nom">Marie-Eve Boulanger</span> <br>
-                Étudiante au doctorat
-              </div>
-            </div>
 
-            <div class="col-lg-3">
-              <div class="col">
-                <div class="img-equipe">
-                  <img src="images/Groupe/louis_carre.jpg" alt="">
-                  <div class="img-overlay">
-                    <span class="nom">Marie-Eve Boulanger</span> <br>
-                    Étudiante au doctorat
-                  </div>
+            <div class="col-md-2 col-sm-4 equipe-box">
+              <div class="img-equipe-old">
+                <img src="images/Groupe/Simon_Fortier.jpg" alt="">
+                <div class="img-overlay">
+                  <a href="mailto:simon.s.fortier@usherbrooke.ca"><span class="icon-envelope"></span></a>
                 </div>
               </div>
+              <span class="nom">Simon Fortier</span> <br>
+              Technicien
             </div>
 
-            <div class="col-lg-3">
-              <div class="col">
-                <div class="img-equipe">
-                  <img src="images/Groupe/louis_carre.jpg" alt="">
-                  <div class="img-overlay">
-                    <span class="nom">Marie-Eve Boulanger</span> <br>
-                    Étudiante au doctorat
-                  </div>
+            <div class="col-md-2 col-sm-4 equipe-box">
+              <div class="img-equipe-old">
+                <img src="images/Groupe/Simon_Fortier.jpg" alt="">
+                <div class="img-overlay">
+                  <a href="mailto:simon.s.fortier@usherbrooke.ca"><span class="icon-envelope"></span></a>
                 </div>
+              </div>
+              <span class="nom">Simon Fortier</span> <br>
+              Technicien
+            </div>
+
+            <div class="col-md-2 col-sm-4 equipe-box">
+              <div class="img-equipe-old">
+                <img src="images/Groupe/Simon_Fortier.jpg" alt="">
+                <div class="img-overlay">
+                  <a href="mailto:simon.s.fortier@usherbrooke.ca"><span class="icon-envelope"></span></a>
+                </div>
+              </div>
+              <span class="nom">Simon Fortier</span> <br>
+              Technicien
+            </div>
+
+            <div class="col-md-2 col-sm-4 equipe-box">
+              <div class="img-equipe-old">
+                <img src="images/Groupe/Simon_Fortier.jpg" alt="">
+                <div class="img-overlay">
+                  <a href="mailto:simon.s.fortier@usherbrooke.ca"><span class="icon-envelope"></span></a>
+                </div>
+              </div>
+              <span class="nom">Simon Fortier</span> <br>
+              Technicien
+            </div>
               </div>
             </div>
           </div>
+
         </div>
       </div>
- -->
+
 
       <footer class="site-footer bg-ligth">
           <div class="row text-center">
