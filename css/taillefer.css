@@ -177,7 +177,21 @@
 
 .mot-clef {
   color: #f23a2e;
-
 }
+
+.bg-primary a {
+  color: #fff;
+}
+
+.bg-primary a:hover {
+  font-weight: 700;
+}
+
+
+
+
+
+
+
 
 

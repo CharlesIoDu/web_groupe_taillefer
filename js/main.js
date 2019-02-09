@@ -250,3 +250,19 @@ function openNav(name_id) {
 function closeNav(name_id) {
   document.getElementById(name_id).style.height = "0%";
 }
+
+// window.onscroll = function() {stickyNav()};
+
+// var navbar = document.getElementsByClassName("site-navbar-wrap");
+
+// var sticky = navbar.offsetTop;
+
+// function stickyNav() {
+//   if (window.pageYOffset >= sticky) {
+//     navbar.classList.add("sticky")
+//   } else {
+//     navbar.classList.remove("sticky");
+//   }
+// }
+
+

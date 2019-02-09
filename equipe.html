@@ -57,12 +57,18 @@
                         <a href="index.html">Accueil</a>
                         <ul class="dropdown arrow-top">
                           <li><a href="index.html#actualites">Actualités</a></li>
+                          <li><a href="index.html#recherche">Recherche</a></li>
                         </ul>
                       </li>
- 					            <li><a href="index.html#recherche">Recherche</a></li>
                       <li><a href="equipe.html">Équipe</a></li>
                       <li><a href="publications_fr.html">Publications</a></li>
-                      <li><a href="doctorat.html">Opportunités</a></li>
+                      <li class="has-children">
+                        <a href="doctorat.html">Études graduées</a>
+                        <ul class="dropdown arrow-top">
+                          <li><a href="doctorat.html#joindre">Joindre l'équipe</a></li>
+                          <li><a href="doctorat.html#theses">Thèses et mémoires</a></li>
+                        </ul>
+                      </li>
                       <li><a href="index.html#contact">Contact</a></li>
                     </ul>
                   </div>
@@ -74,14 +80,14 @@
       </div>
 
       <!-- DEBUT MEMBRE ACTUEL  -->
-      <div class="site-section bg-white py-5 equipe">
+      <div class="site-section bg-white py-5">
         <div class="container">
-          <div class="row mb-5 justify-content-center">
+          <div class="row mb-5 mt-5 justify-content-center">
             <div class="col-12 text-center">
               <h2 class="font-weight-light text-black display-4">Équipe</h2>
             </div>
           </div>
-          <div class="row justify-content-center">
+          <div class="row justify-content-center equipe">
 
            <!-- EQUIPE LOUIS -->
             <div class="col-md-3 col-sm-4 equipe-box">
@@ -132,7 +138,7 @@
                   <a href="https://scholar.google.ca/citations?user=RWE2aeEAAAAJ&hl=en&oi=ao"><span class="ai ai-google-scholar-square ai-1x"></span></a>
                 </div>
               </div>
-                <a onclick="openNav('nav-louis-taillefer')" href="#nav-louis-taillefer">Louis Taillefer</a> <br>
+                a< onclick="openNav('nav-louis-taillefer')" href="#nav-louis-taillefer">Louis Taillefer</a> <br>
                 Professeur
               </p>
             </div>
@@ -625,6 +631,7 @@
               <a href="#"><h6>Doctorat, 2015-2018</h6></a> 
               <h7>Post-doctorante avec Peter Armitage, Johns Hopkins University, USA</h7>  
             </div>
+
             <!-- --- -->
             <div class="col-md-2 col-sm-4 mb-5">
               <div class="img-equipe-old">
@@ -642,8 +649,7 @@
             <div class="col-md-2 col-sm-4 mb-5">
               <div class="img-equipe-old">
                 <img src="images/Groupe_old_members/sven-badoux.jpg" alt="">
-              </div>
-              
+              </div> 
             </div>
 
             <div class="col-md-4 col-sm-8 text-left">
@@ -1214,7 +1220,7 @@
 
             <!-- --- -->
 
-
+          </div>
 
       </div>
    </div>
