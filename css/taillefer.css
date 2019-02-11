@@ -55,7 +55,7 @@
   color: #f1f1f1;
   width: 100%;
   transition: .5s ease;
-  opacity:0;
+  opacity: 0;
   color: white;
   font-size: 30px;
   padding: 20px;
@@ -187,11 +187,31 @@
   font-weight: 700;
 }
 
+.derniere-these {
+  border-bottom: 1px solid #ddd;
+}
 
+.these {
+  border-top: 1px solid #ddd;
+  padding: 20px 10px;
+}
 
+.these p {
+  margin-bottom: 0px;
+}
 
+.these .plus-info {
+  margin-top: 25px;
+  display: none;
+}
 
+.these .titre {
+  font-weight: bold;
+}
 
+.these span {
+  font-size: 24px;
+}
 
 
 

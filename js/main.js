@@ -243,26 +243,36 @@ jQuery(document).ready(function($) {
 
 });
 
-function openNav(name_id) {
-  document.getElementById(name_id).style.height = "100%";
+function openNav(nameId) {
+  document.getElementById(nameId).style.height = "100%";
 }
 
-function closeNav(name_id) {
-  document.getElementById(name_id).style.height = "0%";
+function closeNav(nameId) {
+  document.getElementById(nameId).style.height = "0%";
 }
 
-// window.onscroll = function() {stickyNav()};
+function openThesis(nameId) {
+  var theseId = "these-".concat(nameId);
+  var infoId = "info-".concat(nameId);
 
-// var navbar = document.getElementsByClassName("site-navbar-wrap");
+  document.getElementById(theseId).style.display = "block";
+  document.getElementById(infoId).className = "icon-minus float-right";
 
-// var sticky = navbar.offsetTop;
 
-// function stickyNav() {
-//   if (window.pageYOffset >= sticky) {
-//     navbar.classList.add("sticky")
-//   } else {
-//     navbar.classList.remove("sticky");
-//   }
-// }
+  var newOnClick = "closeThesis('".concat(nameId).concat("')");
+  document.getElementById(infoId).setAttribute("onclick", newOnClick);
+}
 
+
+function closeThesis(nameId) {
+	var theseId = "these-".concat(nameId);
+  var infoId = "info-".concat(nameId);
+ 
+	document.getElementById(theseId).style.display = "none";
+  document.getElementById(infoId).className = "icon-plus float-right";
+
+  
+  var newOnClick = "openThesis('".concat(nameId).concat("')");
+  document.getElementById(infoId).setAttribute("onclick", newOnClick);
+}
 
