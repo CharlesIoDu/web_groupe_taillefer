@@ -36,7 +36,7 @@
           </div>
         </div>
         <div class="site-mobile-menu-body"></div>
-      </div> <!-- .site-mobile-menu -->
+      </div> 
       <div class="site-navbar-wrap bg-white">
         <div class="site-navbar bg-light">
           <div class="container py-1">
@@ -48,9 +48,8 @@
               <div class="col-10">
                 <nav class="site-navigation text-right" role="navigation" >
                   <div class="container">
-                    <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
-
-                   <ul class="site-menu js-clone-nav d-none d-lg-block">
+                    <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3 bg-light"><a href="#" class="site-menu-toggle js-menu-toggle text-dark"><span class="icon-menu h3"></span></a></div>
+                   <ul class="site-menu js-clone-nav d-none d-xl-block">
                       <li class="has-children">
                         <a href="index.html">Accueil</a>
                         <ul class="dropdown arrow-top">
@@ -69,8 +68,9 @@
                         </ul>
                       </li>
                       <li><a href="stage.html">Stages</a></li>
-                      <li><a href="stage.html">Multimédias</a></li>
-                     <li><a href="mailto:louis.taillefer@usherbrooke.ca"><span class="icon-envelope"></span></a></li>
+                      <li><a href="media.html">Médias</a></li>
+                      <li><a href="mailto:louis.taillefer@usherbrooke.ca" class="mail-louis align-middle"><span class="icon-envelope"></span></a></li>
+                      <li><a href="index_eng.html">EN</a></li>
                     </ul>
                   </div>
                 </nav>
@@ -99,9 +99,9 @@
 
 
 
-      <div class="site-section bg-white">
+      <div class="site-section bg-white" id="actualites">
         <div class="container">
-          <div class="row mb-5 justify-content-center" id="actualites" ">
+          <div class="row mb-5 justify-content-center" >
             <div class="col-12 text-center">
               <h2 class="font-weight-light text-black display-4">Actualités</h2>
             </div>
@@ -116,12 +116,12 @@
           <div class="row justify-content-center">
 
 
-          <div class="col-md-6 col-lg-4 mb-4">
+          <div class="col-md-6 col-lg-4 mb-4 d-flex">
             <div class="post-entry bg-white">
               <div class="image">
                 <img src="images/home_news/flux_grown.jpg" alt="Image" class="img-fluid">
               </div>
-              <div class="text p-4">
+              <div class="text pt-4 pb-2 px-4">
                 <h2 class="h5 text-black"><a href="https://fqm.physics.umd.edu/home">École d'hiver à l'Université du Maryland</a></h2>
                 <span class="text-uppercase date d-block mb-3"><small>Janvier 2019</small></span>
                 <p class="mb-0">Marie-Eve Boulanger, Étienne Lefrançois et Adrien Gourgout, trois membres du groupe Taillefer, ont participé à l'école d'hiver de l'Université du Maryland portant sur les matériaux quantiques. Ils ont pu approfondir leur connaissance sur les différentes techniques de croissance des cristaux.</p>
@@ -132,19 +132,19 @@
 
                 <!-- Nouvelle 2 -->
 
-            <div class="col-md-6 col-lg-4 mb-4">
+            <div class="col-md-6 col-lg-4 mb-4 d-flex">
               <div class="post-entry bg-white">
                 <div class="image">
                   <img src="images/home_news/metal_gif.gif" alt="Image" class="img-fluid">
                 </div>
-                <div class="text p-4">
+                <div class="text pt-4 pb-2 px-4">
                   <h2 class="h5 text-black"><a href="https://www.quantamagazine.org/universal-quantum-phenomenon-found-in-superconductors-20181119/">Nouvel article publié dans Nature Physics</a></h2>
                   <span class="text-uppercase date d-block mb-3"><small>Novembre 2018</small></span>
                   <p class="mb-0">De nouvelles expériences suggèrent que les matériaux supraconducteurs exotiques ont en commun une phase de «métal étrange» caractérisée par une vitesse limite imposée par les constantes fondamentales de la mécanique quantique.</p><br>
                   <p class="reference">
                         <a href="Publications/2019/Legros et al. - Nature Physics 15 142 2019">Universal T-linear resistivity and Planckian dissipation in overdoped cuprates</a>
                       <br>
-                      <span class="info">A. Legros <em>et al</em>,Nature Physics 15, 142 (2019).</span>
+                      <span class="info">A. Legros <em>et al</em>, Nature Physics 15, 142 (2019).</span>
                     </p>
 
                       <p class="reference">
@@ -161,12 +161,12 @@
 
             <!-- Nouvelle 1 -->
 
-          <div class="col-md-6 col-lg-4 mb-4">
+          <div class="col-md-6 col-lg-4 mb-4 d-flex">
             <div class="post-entry bg-white">
               <div class="image">
                 <img src="images/home_news/Louis-Taillefer-portrait.jpg" alt="Image" class="img-fluid">
               </div>
-              <div class="text p-4">
+              <div class="text pt-4 pb-2 px-4">
                 <h2 class="h5 text-black"><a href="http://kamerlingh-onnes-prize.ch">Prix Kamerlingh Onnes 2018</a></h2>
                 <span class="text-uppercase date d-block mb-3"><small>Août 2018</small></span>
                 <p class="mb-0">Louis Taillefer a reçu, le 21 août 2018, le prix Karmelingh Onnes pour ses travaux important de mesure de transport dans les fermions lourds et les cuprates supraconducteurs sous champ magnétique intense.</p><br>
@@ -194,11 +194,11 @@
         </div>
       </div>
 
-      <div class="site-section bg-light">
+      <div class="site-section bg-light" id="recherche">
         <div class="container">
           <div class="row mb-5 justify-content-center">
             <div class="col-12 text-center">
-              <h2 class="font-weight-light text-black display-4" id="recherche">Recherche</h2>
+              <h2 class="font-weight-light text-black display-4">Recherche</h2>
             </div>
             <div class="col-md-7 text-center">
               <h5>Études des électrons dans les matériaux quantiques</h5>

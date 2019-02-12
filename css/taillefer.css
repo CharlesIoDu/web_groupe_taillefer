@@ -213,5 +213,15 @@
   font-size: 24px;
 }
 
+.mail-louis {
+  margin: 0;
+  padding: 0;
+}
 
+.mail-louis span {
+  font-size: 24px;
+}
 
+.taillefer-media {
+  height: 400px;
+}
